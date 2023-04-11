@@ -9,11 +9,13 @@ namespace MAUITicTacToe.MVVM.View;
 
 public partial class TicTacToePage : ContentPage
 {
-    public TicTacToePage()
+    public TicTacToePage(TicTacToeVM viewModel)
     {
         InitializeComponent();
         
         //bind the view model to the view
-        BindingContext = new TicTacToeVM();
+        BindingContext = viewModel;
     }
+
+   
 }
