@@ -2,7 +2,7 @@
 
 namespace MAUITicTacToe.MVVM.ViewModel;
 
-public class TicTacToeVM 
+public class TicTacToeVM : TicTacToePage
 {
     bool isXorO = false;
     int scoreCount = 0;
